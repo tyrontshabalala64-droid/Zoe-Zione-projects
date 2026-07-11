@@ -1,0 +1,191 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoe Zion Projects | Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- ===== HEADER WITH LOGO ===== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="display:flex; align-items:center; gap:15px; text-decoration:none;">
+                    <img src="./zion_Logo.png" alt="Zoe Zion Projects Logo" style="height:50px; width:auto; max-height:50px;" onerror="this.style.display='none'" />
+                    <div>
+                        <h1>Zoe <span>Zion</span> Projects</h1>
+                        <p>Brilliant Minds. Incomparable Solutions.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Get In <span>Touch</span></h1>
+            <p>Reach out for a free consultation or quote. We're here to help!</p>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT CONTENT ===== -->
+    <section class="contact" style="padding-top:60px;">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Contact <span>Information</span></h3>
+                    <p>
+                        We'd love to hear from you. Whether you have a question about
+                        our services, need a quote, or want to discuss a project,
+                        our team is ready to assist.
+                    </p>
+
+                    <div class="contact-detail">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <strong>Phone</strong>
+                            <span>+27 73 853 7751</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="fab fa-whatsapp" style="background:#25D366; color:#fff;"></i>
+                        <div>
+                            <strong>WhatsApp</strong>
+                            <span>+27 73 853 7751</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <span>akanijoy@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Address</strong>
+                            <span>05 Ox Eye Street, Colnbrook Estate, Midrand</span>
+                        </div>
+                    </div>
+
+                    <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;">
+                        <a href="https://wa.me/27738537751" target="_blank" class="btn" style="background:#25D366; color:#fff; display:inline-flex; align-items:center; gap:8px;">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Us
+                        </a>
+                        <a href="mailto:akanijoy@gmail.com" class="btn" style="background:#0b1a2e; color:#fff; display:inline-flex; align-items:center; gap:8px;">
+                            <i class="fas fa-envelope"></i> Email Us
+                        </a>
+                    </div>
+
+                    <div style="margin-top:25px;background:#0b1a2e;color:#fff;padding:18px 22px;border-radius:12px;">
+                        <p style="font-size:0.9rem;opacity:0.9;">
+                            <strong style="color:#fbbf24;">Company:</strong> Zoe Zion Projects<br />
+                            <strong style="color:#fbbf24;">Registration:</strong> 2024/430221/07<br />
+                            <strong style="color:#fbbf24;">Director:</strong> Nkululeko Mbatha
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ===== CONTACT FORM ===== -->
+                <div>
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" id="formName" placeholder="Your Name" required />
+                        <input type="email" id="formEmail" placeholder="Your Email" required />
+                        <input type="text" id="formSubject" placeholder="Subject" />
+                        <textarea id="formMessage" placeholder="Tell us about your project..." required></textarea>
+                        
+                        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+                            <button type="submit" id="sendWhatsApp" class="btn" style="flex:1; background:#25D366; color:#fff; display:flex; align-items:center; justify-content:center; gap:8px; min-width:140px;">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </button>
+                            <button type="submit" id="sendEmail" class="btn" style="flex:1; background:#0b1a2e; color:#fff; display:flex; align-items:center; justify-content:center; gap:8px; min-width:140px;">
+                                <i class="fas fa-envelope"></i> Email
+                            </button>
+                        </div>
+                        
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GOOGLE MAPS ===== -->
+    <section class="map-section">
+        <div class="container">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.561401234567!2d28.125!3d-25.998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9566b0c3c0e8b5%3A0x8f5b8e5d5e8b5d5e!2sMidrand%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v1700000000000" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-brand">
+                <h3>Zoe <span>Zion</span> Projects</h3>
+                <p>
+                    Brilliant Minds. Incomparable Solutions.<br />
+                    Trusted electrical and solar solutions across South Africa.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h5>Connect With Us</h5>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://wa.me/27738537751" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Zoe Zion Projects. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+    <a href="https://wa.me/27738537751" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
